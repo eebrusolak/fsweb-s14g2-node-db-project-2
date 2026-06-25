@@ -1,0 +1,162 @@
+{
+  "results": {
+    "tool": {
+      "name": "jest"
+    },
+    "summary": {
+      "tests": 13,
+      "passed": 13,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1782379585883,
+      "stop": 1782379588421
+    },
+    "tests": [
+      {
+        "name": "[0] sanity check",
+        "duration": 2,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js"
+      },
+      {
+        "name": "server.js [GET] /api/cars [1] gets the correct number of cars",
+        "duration": 39,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js > server.js > [GET] /api/cars"
+      },
+      {
+        "name": "server.js [GET] /api/cars [2] gets the correct cars",
+        "duration": 21,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js > server.js > [GET] /api/cars"
+      },
+      {
+        "name": "server.js [GET] /api/cars/:id [3] gets the correct car",
+        "duration": 27,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js > server.js > [GET] /api/cars/:id"
+      },
+      {
+        "name": "server.js [GET] /api/cars/:id [4] responds with 404 on id not found",
+        "duration": 18,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js > server.js > [GET] /api/cars/:id"
+      },
+      {
+        "name": "server.js [POST] /api/cars [5] creates a car in the database",
+        "duration": 55,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js > server.js > [POST] /api/cars"
+      },
+      {
+        "name": "server.js [POST] /api/cars [6] responds with the newly created car",
+        "duration": 33,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js > server.js > [POST] /api/cars"
+      },
+      {
+        "name": "server.js [POST] /api/cars [7] responds with a 400 and proper error on missing vin",
+        "duration": 12,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js > server.js > [POST] /api/cars"
+      },
+      {
+        "name": "server.js [POST] /api/cars [8] responds with a 400 and proper error on missing make",
+        "duration": 12,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js > server.js > [POST] /api/cars"
+      },
+      {
+        "name": "server.js [POST] /api/cars [9] responds with a 400 and proper error on missing model",
+        "duration": 10,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js > server.js > [POST] /api/cars"
+      },
+      {
+        "name": "server.js [POST] /api/cars [10] responds with a 400 and proper error on missing mileage",
+        "duration": 11,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js > server.js > [POST] /api/cars"
+      },
+      {
+        "name": "server.js [POST] /api/cars [11] responds with a 400 and proper error on invalid vin",
+        "duration": 8,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js > server.js > [POST] /api/cars"
+      },
+      {
+        "name": "server.js [POST] /api/cars [12] responds with a 400 and proper error on non-unique vin",
+        "duration": 20,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\ebrus\\OneDrive\\Desktop\\My Repos\\fsweb-s14g2-node-db-project-2\\codegrade_mvp.test.js > server.js > [POST] /api/cars"
+      }
+    ]
+  }
+}

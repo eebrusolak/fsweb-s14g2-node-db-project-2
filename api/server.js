@@ -1,7 +1,18 @@
-const express = require("express")
+const express = require("express");
+
+const carsRouter = require("./cars/cars-router");
 
 const server = express()
 
-// SİHRİNİZİ GÖSTERİN
+server.use(express.json());
+
+server.use("/api/cars", carsRouter);
+
+server.use((err, req, res, next) => {
+    res.status(500).json({
+        message: err.message,
+    })
+})
+
 
 module.exports = server
